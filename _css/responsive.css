@@ -1,0 +1,55 @@
+@media ( max-width: 1200px ) {
+    .corpo-full .content img {
+        width: 400px;
+        margin-right: 30px;
+    }
+
+    .corpo-full .content .frame-spec {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #interface .cabecalho {
+            height:  250px;
+            background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0 190px;
+    }
+
+    #interface .cabecalho hgroup {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #interface .cabecalho .menu{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #interface .cabecalho #icone {
+        top: 170px;
+    }
+
+    .corpo-full .content img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px ) {
+    #interface .corpo {
+        flex-direction: column;
+    }
+
+    #interface .corpo article {
+        margin-right: 0;
+        border-right: none;
+    }
+
+    .corpo-full .content {
+        flex-direction: column;
+    }
+
+    .corpo-full .content img {
+        margin-bottom: 20px;
+    }
+}

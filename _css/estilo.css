@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'FontLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+li {list-style: none;}
+a{text-decoration: none; color: #606060;}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.tag {
+    font-size: 1.2em;
+    color: #888888;
+    background: #dddddd;
+    padding: 5px;
+    width: 100%;
+}
+
+.title-article {
+    margin-bottom: 30px;
+}
+
+.title-article h1{
+    font-family: 'FontLogo', sans-serif;
+    font-size: 1.5em;
+    color: #606060;
+}
+
+.title-article h2{
+    font-size: 1em;
+    color: #cecece;
+}
+
+.title-article h3 {
+    ont-size: .9em;
+    color: #606060;
+}
+
+.title-article .title {
+    text-align: right;
+}
+
+#interface {
+    width: 80%;
+    margin: auto 10%;
+    padding: 0 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+#interface .cabecalho {
+    position: relative;
+    height: 150px;
+    border-bottom: 1px solid #606060;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0 90px;
+}
+
+#interface .cabecalho .menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#interface .cabecalho .menu li {
+    margin-right: 10px;
+    padding: 10px;
+    background: #dddddd;
+    transition: 1s;
+}
+
+#interface .cabecalho .menu li:last-child {
+    margin-right: 0;
+}
+
+#interface .cabecalho .menu li a {
+    color: #000;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#interface .cabecalho .menu li:hover {
+    background: #606060;
+}
+
+#interface .cabecalho .menu li:hover a {
+    color: #fff;
+} 
+
+#interface .cabecalho hgroup h1{
+    font-family: 'FontLogo', sans-serif;
+    color: #606060;
+    font-size: 2em;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+}
+
+#interface .cabecalho hgroup h2 {
+    font-size: 1em;
+    color: #888888;
+}
+
+#interface .cabecalho #icone {
+    position: absolute;
+    right: 5px;
+    top: 60px;
+}
+
+#interface .foto-legenda {
+    position: relative;
+    border: 8px solid #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+}
+
+#interface .foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+#interface .foto-legenda figcaption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 10px;
+    transition: opacity 1s;
+}
+
+#interface .foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+#interface .corpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#interface .corpo article {
+    margin-right: 2%;
+    border-right: 1px solid #606060;
+    padding-right: 20px;   
+}
+
+#interface .corpo article .tablespec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    width: 80%;
+    margin: 10px 10%;
+}
+
+#interface .corpo article .tablespec td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+
+#interface .corpo article .tablespec caption {
+    color: #888888;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#interface .corpo article .tablespec caption span {
+    float: right;
+    color: #000;
+    font-size: .7em;
+    margin-top: 10px;
+}
+
+#interface .corpo article .tablespec .colesq  {
+    text-align: right;
+    font-weight: 700;
+    vertical-align: top;
+    color: #fff;
+    background: #606060;
+}
+
+#interface .corpo article .tablespec .coldir {
+    text-align: left;
+    background: #cecece;
+}
+
+#interface .corpo .lateral {
+    background: #dddddd;
+    margin: 2% 1% 2% 0;
+    padding: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+#interface .corpo .lateral h1 {
+    color: #606060;
+    font-family: 'FontLogo', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#interface .corpo .lateral h2 {
+    background: #606060;
+    font-size: 1em;
+    color: #fff;
+    padding: 5px;
+}
+
+#interface #rodape ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-top: 1px solid #606060;
+    text-align: center;
+    font-size: .9em;
+}
+
+#interface #rodape ul li a {
+    color: #000;
+}
+
+#interface #rodape ul li a:hover {
+    text-decoration: underline;
+}
